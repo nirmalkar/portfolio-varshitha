@@ -24,7 +24,8 @@ function Home({}: Props) {
           <h2>Hi,&thinsp;I'm Varshitha</h2>
           <h3>
             I am a Software Developer, who is passionate about learning new
-            technologies, based in Bangalore. I work on building websites.
+            technologies, based in Bangalore. I work on building websites for
+            ecommerce sites.
           </h3>
           <SocialIcons />
         </div>

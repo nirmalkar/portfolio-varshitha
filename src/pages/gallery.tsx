@@ -289,6 +289,65 @@ function Gallery({}: Props) {
           <div className="item">
             <div className="item__details">sugar plum dragée</div>
           </div> */}
+          <div className="item">
+            <StaticImage
+              src="../assets/pinforest.JPG"
+              height={250}
+              width={500}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+              // imgStyle={{ borderRadius: "50%" }}
+            />
+            <div className="item__details">~ pine forest ooty </div>
+          </div>
+          <div className="item item--large">
+            <div className="item__details">Graduation day</div>
+          </div>
+          <div className="item item--medium">
+            <StaticImage
+              src="../assets/pineforest2.jpg"
+              height={600}
+              width={600}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ ooty</div>
+          </div>
+          <div className="item item--large">
+            <div className="item__details">~ ooty</div>
+          </div>
+          <div className="item item--full">
+            <div className="item__details">~ ooty</div>
+          </div>
+          <div className="item item--medium">
+            <div className="item__details">~ ooty</div>
+          </div>
+          {/* <div className="item item--large">
+            <StaticImage
+              src="../assets/pineforest1.JPG"
+              height={850}
+              width={600}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+              // imgStyle={{ borderRadius: "50%" }}
+            />
+            <div className="item__details">~ ooty</div>
+          </div> */}
+          <div className="item">
+            <StaticImage
+              src="../assets/ooty4.jpg"
+              height={250}
+              width={500}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+              // imgStyle={{ borderRadius: "50%" }}
+            />
+            <div className="item__details">~ Pine Forest,Ooty</div>
+          </div>
         </div>
       </section>
     </Layout>

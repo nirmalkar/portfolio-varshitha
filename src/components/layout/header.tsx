@@ -64,7 +64,7 @@ const Header: React.FC = (props) => {
           )}
         </div>
         <div className={!isMenuShown ? "nav-container" : "nav-links"}>
-          <Link className="nav-link text-3xl font-bold underline" to={"/"}>
+          <Link className="nav-link" to={"/"}>
             <HomeIcon color="#fff" />
           </Link>
           {/* <Link className="nav-link" to={"/about"}>
