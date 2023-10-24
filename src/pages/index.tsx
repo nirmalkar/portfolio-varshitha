@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
-import SocialIcons from "./Social";
+import SocialIcons from "../components/Social";
 
 type Props = {};
 
@@ -12,8 +12,8 @@ function Home({}: Props) {
       <div className="varsh_bio">
         <StaticImage
           src="../assets/profile1.jpg"
-          height={350}
-          width={700}
+          height={200}
+          width={400}
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="Varshitha BR"

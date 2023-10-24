@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ThemeContext } from "../../context/themeProvider";
+import SocialIcons from "../Social";
 
 const Footer: React.FC = () => {
   const { theme } = React.useContext(ThemeContext);
@@ -18,8 +19,8 @@ const Footer: React.FC = () => {
       <p style={{ color: theme.colors.oppositePrimary }}>
         All materials © Varshitha {new Date().getFullYear()}
       </p>
-      {/* <div onClick={copyWebsite} className="share-icon">
-        <div
+      <div onClick={copyWebsite} className="share-icon">
+        {/* <div
           className="copy-text"
           style={{
             backgroundColor: theme.colors.oppositeSecondary,
@@ -27,8 +28,9 @@ const Footer: React.FC = () => {
           }}
         >
           {copyStatus && "copied"}
-        </div>
-      </div> */}
+        </div> */}
+        <SocialIcons />
+      </div>
     </footer>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "gatsby";
-import Github from "../icons/social-icons/gh";
+// import Github from "../icons/social-icons/gh";
 import Instagram from "../icons/social-icons/ig";
 import Mail from "../icons/social-icons/mail";
 import LinkedIn from "../icons/social-icons/in";

@@ -2,12 +2,14 @@
   height: 50px;
   padding: 20px;
   background: none;
-  padding: 0 2rem 0rem 2rem;
+  padding: 0 2rem 0.5rem 2rem;
   font-family: "inter";
   font-size: smaller;
   font-weight: 200;
   letter-spacing: 1px;
   display: flex;
+  align-items: center;
+  position: relative;
   gap: 1rem;
   .share-icon {
     padding-top: 0.6rem;

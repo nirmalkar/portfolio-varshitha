@@ -6,7 +6,8 @@ type Props = {};
 function Resume({}: Props) {
   return (
     <Layout>
-      <p style={{ color: "#fff" }}>Resume</p>
+      <h2 style={{ color: "#fff" }}>Resume</h2>
+      <p style={{ color: "#fff" }}>Will be right back!</p>
     </Layout>
   );
 }

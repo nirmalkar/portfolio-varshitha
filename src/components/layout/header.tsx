@@ -36,7 +36,7 @@ const Header: React.FC = (props) => {
   // };
 
   return (
-    <header className="header-container flex center">
+    <header className="header-container">
       <Link to={"/"}>
         <Logo />
       </Link>
@@ -67,16 +67,16 @@ const Header: React.FC = (props) => {
           <Link className="nav-link text-3xl font-bold underline" to={"/"}>
             <HomeIcon color="#fff" />
           </Link>
+          {/* <Link className="nav-link" to={"/about"}>
+            About
+          </Link> */}
           <Link className="nav-link" to={"/gallery"}>
             Gallery
           </Link>
           <Link className="nav-link" to={"/contact"}>
             Contact
           </Link>
-          <Link
-            className="nav-link text-3xl font-bold no-underline"
-            to={"/resume"}
-          ></Link>
+          <Link className="nav-link" to={"/resume"}></Link>
         </div>
         {/* </CSSTransition> */}
       </div>

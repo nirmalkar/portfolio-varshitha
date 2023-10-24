@@ -11,7 +11,14 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px; /* Add padding to the main content area */
-  padding-bottom: 80px; /* Add additional padding for the sticky footer */
+  padding-bottom: 120px; /* Add additional padding for the sticky footer */
+  min-height: 60vh;
+}
+
+@media screen and (min-width: 767px) {
+  main {
+    min-height: 68vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -224,7 +231,19 @@ h1 {
     padding: 0 20px;
   }
   .instagram {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
+  }
+}
+.share-icon {
+  .social-icon-container {
+    height: 0.5rem;
+  }
+  .li-linkedin,
+  .instagram {
+    height: 20px;
+  }
+  .mail {
+    height: 48px;
   }
 }
 

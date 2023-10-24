@@ -10,12 +10,12 @@ function ContactFrom() {
     submitting: false,
     status: null,
   });
-  const inputHandler = (e) => {
+  const inputHandler = (e: any) => {
     setFormData({
       [e.target.name]: e.target.value,
     });
   };
-  const handleServerResponse = (ok, msg, form) => {
+  const handleServerResponse = (ok: any, msg: any, form: any) => {
     setServerState({
       submitting: false,
       status: { ok, msg },
@@ -25,7 +25,7 @@ function ContactFrom() {
     }
   };
   console.log(serverState);
-  const submitContactForm = (e) => {
+  const submitContactForm = (e: any) => {
     e.preventDefault();
     const form = e.target;
     console.log(form);
