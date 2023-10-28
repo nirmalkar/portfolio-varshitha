@@ -25,7 +25,7 @@ function Home({}: Props) {
           <h3>
             I am a Software Developer, who is passionate about learning new
             technologies, based in Bangalore. I work on building websites for
-            ecommerce sites.
+            e-commerce sites.
           </h3>
           <SocialIcons />
         </div>
