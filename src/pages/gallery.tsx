@@ -16,7 +16,7 @@ function Gallery({}: Props) {
             <div className="item__details">Graduation day</div>
           </div>
           <div className="item item--medium">
-            <div className="item__details">~ ooty</div>
+            <div className="item__details">~ Vas Haldi</div>
           </div>
           <div className="item item--large">
             <div className="item__details">~ ooty</div>
@@ -29,7 +29,7 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--large">
             <StaticImage
-              src="../assets/pineforest1.JPG"
+              src="../assets/hbd.jpg"
               height={850}
               width={600}
               quality={95}
@@ -37,7 +37,7 @@ function Gallery({}: Props) {
               alt="Varshitha BR"
               // imgStyle={{ borderRadius: "50%" }}
             />
-            <div className="item__details">~ ooty</div>
+            <div className="item__details">~ HBD</div>
           </div>
           <div className="item">
             <StaticImage
@@ -273,8 +273,8 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--medium">
             <StaticImage
-              src="../assets/haldi_friends.PNG"
-              height={1000}
+              src="../assets/haldi_grp.jpg"
+              height={800}
               width={800}
               quality={95}
               formats={["auto", "webp", "avif"]}
@@ -289,6 +289,96 @@ function Gallery({}: Props) {
           <div className="item">
             <div className="item__details">sugar plum dragée</div>
           </div> */}
+          <div className="item">
+            <StaticImage
+              src="../assets/pinforest.JPG"
+              height={250}
+              width={500}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ pine forest ooty </div>
+          </div>
+          <div className="item item--large">
+            <StaticImage
+              src="../assets/jatyu_sunset.jpg"
+              height={1010}
+              width={700}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ Jatayu</div>
+          </div>
+          <div className="item item--medium">
+            <StaticImage
+              src="../assets/pineforest2.jpg"
+              height={550}
+              width={600}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ ooty</div>
+          </div>
+          <div className="item item--large">
+            <StaticImage
+              src="../assets/jatyu.jpg"
+              height={1010}
+              width={700}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ jatyu</div>
+          </div>
+          <div className="item item--full">
+            <StaticImage
+              src="../assets/trika_grp.jpg"
+              height={450}
+              width={1200}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ Trika</div>
+          </div>
+          <div className="item item--medium">
+            <StaticImage
+              src="../assets/murdeshwara_startfish.jpg"
+              height={600}
+              width={600}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+            />
+            <div className="item__details">~ Mudeshwara</div>
+          </div>
+          {/* <div className="item item--large">
+            <StaticImage
+              src="../assets/pineforest1.JPG"
+              height={850}
+              width={600}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+              // imgStyle={{ borderRadius: "50%" }}
+            />
+            <div className="item__details">~ ooty</div>
+          </div> */}
+          <div className="item">
+            <StaticImage
+              src="../assets/ooty4.jpg"
+              height={250}
+              width={500}
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              alt="Varshitha BR"
+              // imgStyle={{ borderRadius: "50%" }}
+            />
+            <div className="item__details">~ Pine Forest,Ooty</div>
+          </div>
         </div>
       </section>
     </Layout>

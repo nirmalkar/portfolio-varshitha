@@ -19,6 +19,7 @@ function mail({ color, width }) {
       viewBox="0 0 402 300"
       width={width}
       height={60}
+      className="mail"
     >
       <path
         fill="#BF8000"

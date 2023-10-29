@@ -11,7 +11,14 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px; /* Add padding to the main content area */
-  padding-bottom: 80px; /* Add additional padding for the sticky footer */
+  padding-bottom: 120px; /* Add additional padding for the sticky footer */
+  min-height: 60vh;
+}
+
+@media screen and (min-width: 767px) {
+  main {
+    min-height: 68vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -63,11 +70,26 @@ html {
   height: 100%;
   background: #f5f4f4;
   font-size: 13px;
-  font-family: "Arvo", monospace;
+  font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 
   @supports (display: grid) {
     display: block;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    text-align: left;
+    padding: 10px;
+    width: 55%;
+    font-size: 18px;
+  }
+}
+.about {
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 auto;
 }
 
 .message {
@@ -83,7 +105,7 @@ html {
 
 .section_gallery {
   display: none;
-  // padding: 2rem;
+  font-family: "Arvo", monospace;
 
   @media screen and (min-width: 768px) {
     // padding: 4rem;
@@ -115,11 +137,11 @@ h1 {
   justify-content: flex-end;
   box-sizing: border-box;
   background: #0c9a9a;
-  color: #fff;
   grid-column-start: auto;
   grid-row-start: auto;
   color: #fff;
-  background: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+  background: #fff;
+  // background: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
   background-size: cover;
   background-position: center;
   box-shadow: -2px 2px 10px 0px rgba(#444, 0.4);
@@ -134,7 +156,7 @@ h1 {
   }
 
   &:nth-of-type(3) {
-    background-image: url("../assets/profile1.jpg");
+    background-image: url("../assets/haldi_flowers.jpg");
   }
 
   &:nth-of-type(4) {
@@ -224,12 +246,59 @@ h1 {
     padding: 0 20px;
   }
   .instagram {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
+  }
+}
+.share-icon {
+  .social-icon-container {
+    height: 0.5rem;
+  }
+  .li-linkedin,
+  .instagram {
+    height: 20px;
+  }
+  .li-linkedin:hover,
+  .instagram:hover {
+    height: 25px;
+  }
+  .mail {
+    height: 48px;
+  }
+  .mail:hover {
+    height: 55px;
   }
 }
 
 .form_container {
-  height: 50vh;
+  font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  .name,
+  .email {
+    width: 20rem;
+    height: 3rem;
+    padding: 0 10px;
+    margin: 5px;
+  }
+  .text-area {
+    height: 5rem;
+    width: 20rem;
+    padding: 5px 10px;
+    margin: 5px;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  .submit_btn {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    border: 1px solid;
+
+    border-radius: 20px;
+  }
+  .submit_btn:hover {
+    color: #fff;
+    background-color: #bf8000;
+    border: 1px solid;
+    border-radius: 20px;
+  }
 }
 
 .varsh_bio {
