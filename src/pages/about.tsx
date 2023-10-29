@@ -33,6 +33,10 @@ function About() {
               Healthcare, I have an elder sister(Vas) I am the younger one,
               super pampered.
             </p>
+            <br />I love...
+            <p style={{ color: "#fff" }}>
+              Watching stand-up Comedy , Sunsets, Music 🎵, Photography 📸.
+            </p>
           </p>
         </div>
       </Layout>

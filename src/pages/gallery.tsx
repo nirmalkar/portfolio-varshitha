@@ -16,7 +16,7 @@ function Gallery({}: Props) {
             <div className="item__details">Graduation day</div>
           </div>
           <div className="item item--medium">
-            <div className="item__details">~ ooty</div>
+            <div className="item__details">~ Vas Haldi</div>
           </div>
           <div className="item item--large">
             <div className="item__details">~ ooty</div>
@@ -29,7 +29,7 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--large">
             <StaticImage
-              src="../assets/pineforest1.JPG"
+              src="../assets/hbd.jpg"
               height={850}
               width={600}
               quality={95}
@@ -37,7 +37,7 @@ function Gallery({}: Props) {
               alt="Varshitha BR"
               // imgStyle={{ borderRadius: "50%" }}
             />
-            <div className="item__details">~ ooty</div>
+            <div className="item__details">~ HBD</div>
           </div>
           <div className="item">
             <StaticImage
@@ -309,12 +309,12 @@ function Gallery({}: Props) {
               formats={["auto", "webp", "avif"]}
               alt="Varshitha BR"
             />
-            <div className="item__details">~Jatayu</div>
+            <div className="item__details">~ Jatayu</div>
           </div>
           <div className="item item--medium">
             <StaticImage
               src="../assets/pineforest2.jpg"
-              height={600}
+              height={550}
               width={600}
               quality={95}
               formats={["auto", "webp", "avif"]}
@@ -335,14 +335,14 @@ function Gallery({}: Props) {
           </div>
           <div className="item item--full">
             <StaticImage
-              src="../assets/gold_coin.jpg"
-              height={1000}
-              width={3000}
+              src="../assets/trika_grp.jpg"
+              height={450}
+              width={1200}
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="Varshitha BR"
             />
-            <div className="item__details">~ Gold Coin</div>
+            <div className="item__details">~ Trika</div>
           </div>
           <div className="item item--medium">
             <StaticImage
