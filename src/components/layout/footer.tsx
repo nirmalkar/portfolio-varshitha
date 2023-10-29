@@ -20,15 +20,6 @@ const Footer: React.FC = () => {
         All materials © Varshitha {new Date().getFullYear()}
       </p>
       <div onClick={copyWebsite} className="share-icon">
-        {/* <div
-          className="copy-text"
-          style={{
-            backgroundColor: theme.colors.oppositeSecondary,
-            color: theme.colors.secondary,
-          }}
-        >
-          {copyStatus && "copied"}
-        </div> */}
         <SocialIcons />
       </div>
     </footer>

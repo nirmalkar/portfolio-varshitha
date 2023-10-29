@@ -12,7 +12,7 @@ function Contact() {
       {/* <Seo title="Contact" /> */}
       {/* <NavigationBar /> */}
       <Layout>
-        <p style={{ color: "#fff" }}>Contact</p>
+        <p style={{ color: "#fff" }}>Contact!</p>
         <div>
           <ContactFrom />
         </div>
