@@ -14,7 +14,7 @@ function About() {
           </p>
           <p style={{ color: "#fff" }}>
             Lets start from beginning, I was born in Channaraypatna,
-            Hasssan(Karnataka). I am brought up in Bengaluru.{" "}
+            Hassan(Karnataka). I am brought up in Bengaluru.{" "}
           </p>
           <p style={{ color: "#fff" }}>
             Started my schooling 📚 in RVPS(Lalbagh),Scase(Konankunate),

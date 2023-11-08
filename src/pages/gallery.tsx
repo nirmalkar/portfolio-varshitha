@@ -16,7 +16,7 @@ function Gallery({}: Props) {
             <div className="item__details">Graduation day</div>
           </div>
           <div className="item item--medium">
-            <div className="item__details">~ Vas Haldi</div>
+            <div className="item__details">~ ooty</div>
           </div>
           <div className="item item--large">
             <div className="item__details">~ ooty</div>
