@@ -18,7 +18,7 @@ function About() {
           </p>
           <p style={{ color: "#fff" }}>
             Started my schooling 📚 in RVPS(Lalbagh),Scase(Konankunate),
-            completed my +1+2 at (DJS)Deeksha Jnana Sweekar in PCMB 🎒
+            completed my +1+2 at (DJS ♠️)Deeksha Jnana Sweekar in PCMB 🎒
             <p style={{ color: "#fff" }}>
               I have pursued my Bachelor’s in Information Science from SJB
               Institute of Technologies.👩‍🎓
