@@ -169,7 +169,7 @@ function Gallery({}: Props) {
               formats={["auto", "webp", "avif"]}
               alt="Varshitha BR"
             />
-            <div className="item__details">~ Trika</div>
+            <div className="item__details">~ Sud </div>
           </div>
           <div className="item item--full">
             <StaticImage

@@ -23,7 +23,7 @@ function About() {
               I have pursued my Bachelor’s in Information Science from SJB
               Institute of Technologies.👩‍🎓
             </p>
-            Currently, working at a startup Trika Technologies on E-commerce
+            Currently, working at a startup on E-commerce
             domain.👩‍💻 <br />
             <br />
             <br />
